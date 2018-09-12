@@ -7,7 +7,7 @@
   "contributors": [],
   "dependencies": {
     "glob": "^7.0.0",
-    "lodash": "^4.0.0",
+    "lodash": "^4.17.11",
     "semver": "^5.5.0",
     "semver-intersect": "^1.1.0"
   },
