@@ -7,6 +7,8 @@ const reduce = require('lodash/reduce');
 const semver = require('semver');
 
 function applyCommonRange (dependencies, name, commonRange) {
+    if (!Object.keys(commonRange || {}).length) return false;
+    
     const range = dependencies[name];
     const newRange = range
         .split('||')
